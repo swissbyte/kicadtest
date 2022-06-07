@@ -51,14 +51,14 @@
     )
   )
 
-  (sheet (at 81.28 55.88) (size 25.4 12.7) (fields_autoplaced)
+  (sheet (at 76.2 50.8) (size 25.4 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid bbe51f60-6efe-4402-8542-2dfbd71b2c52)
-    (property "Sheet name" "Connectors" (id 0) (at 81.28 55.1684 0)
+    (property "Sheet name" "Connectors" (id 0) (at 76.2 50.0884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 81.28 69.1646 0)
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 76.2 64.0846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -631,9 +631,6 @@
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/5eaefda3-1a9d-48ce-9981-d272d40f64b8"
       (reference "D411") (unit 1) (value "1N4148WST4") (footprint "SOD-323_L1.8-W1.3-LS2.5-RD")
     )
-    (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/08a5dce1-b4b7-4b61-b99f-d864a41685b7"
-      (reference "IC201") (unit 1) (value "STK8321") (footprint "LGA-12_L2.0-W2.0-P0.50-TR")
-    )
     (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/ef7f239c-328b-4432-9114-52f1dc9b5d40"
       (reference "IC202") (unit 1) (value "PCF8563T_5,518") (footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
     )
@@ -646,20 +643,11 @@
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/f850cf45-2a86-4876-9211-e95090c9d345"
       (reference "IC302") (unit 1) (value "SY8113BADC") (footprint "TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR")
     )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/ecbe8364-4e04-498d-8c0e-d6662c4c0d8d"
-      (reference "IC601") (unit 1) (value "STK8321") (footprint "LGA-12_L2.0-W2.0-P0.50-TR")
-    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/2b8236c9-fe89-465d-b207-cb557941ec30"
       (reference "IC602") (unit 1) (value "SP3485EN-L_TR") (footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
     )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/e8f6bea2-6afe-4625-9f9e-d3276695906a"
-      (reference "IC603") (unit 1) (value "WM8782SEDS_RV_C323842") (footprint "SSOP-20_L7.5-W5.2-P0.65-LS8.0-BL")
-    )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/8ab338a5-48e2-4a4b-a1a5-ac2e383eefa1"
       (reference "IC604") (unit 1) (value "CS4344-CZZ") (footprint "TSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL")
-    )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/80e88525-7435-4c89-859c-41fcf3e6e5c6"
-      (reference "IC605") (unit 1) (value "MCP9700AT-E_TT") (footprint "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
     )
     (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/00b0795b-b2e4-400a-b0ed-a793500dd33e"
       (reference "L301") (unit 1) (value "6.8uH, 1A") (footprint "IND-SMD_L4.0-W4.0")
@@ -814,6 +802,9 @@
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/623959e2-34ab-4046-816a-cea006832ebf"
       (reference "R607") (unit 1) (value "470R") (footprint "R0402")
     )
+    (path "/5431a3ef-e3a9-462a-b9dc-2ffdf9ab7e55/f0f5abe6-aa44-4184-a0d5-c411d6894f4c"
+      (reference "SW301") (unit 1) (value "1FS1T1B9M2RES-5") (footprint "SW-TH_1FS1T1B9M2RES-5")
+    )
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/165f104a-0e7f-455c-9399-3a6cd3ce306e"
       (reference "SW401") (unit 1) (value "K2-1102SP-C4SC-04") (footprint "KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BL")
     )
@@ -841,9 +832,6 @@
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/a14e5595-04f5-49b5-a750-23743fd6d8c0"
       (reference "T405") (unit 1) (value "AO3400A") (footprint "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR")
     )
-    (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/8b422599-b638-47b2-8f32-c249353be142"
-      (reference "X201") (unit 1) (value "PCIE-52P40H") (footprint "PCIE-SMD_PCIE-52P40H")
-    )
     (path "/dc18459b-bf67-402d-bc74-ca4debdbcff4/cfe8bf91-6da9-4459-9015-a6975da2f787"
       (reference "X202") (unit 1) (value "32.768 kHz") (footprint "FC-135R_L3.2-W1.5")
     )
@@ -862,20 +850,11 @@
     (path "/92753037-c50f-47ac-9b4f-72ea899f1ef8/a654d111-a6d1-4e33-b601-e3eed935db03"
       (reference "X401") (unit 1) (value "ER-TFT035-6") (footprint "FPC-SMD_AFC07-S50ECA-00")
     )
-    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/7be2ef53-cba7-4853-8fae-2fe102b7b429"
-      (reference "X501") (unit 1) (value "PH-00650") (footprint "HDR-SMD_40P-P2.54-V-M-R2-C20-S7.8-EH")
-    )
-    (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/f8abf6c4-1dcf-446b-a256-f91d5bc3a291"
-      (reference "X502") (unit 1) (value "S4B-PH-SM4-K-TB(LF)(SN)") (footprint "CONN-SMD_S4B-PH-SM4-K-TB-LF-SN")
-    )
     (path "/bbe51f60-6efe-4402-8542-2dfbd71b2c52/fb404219-43fe-4179-9de3-711e3d4727e6"
       (reference "X503") (unit 1) (value "USB3.1C16PFSMT") (footprint "USB-C-SMD_TYPE-C-USB-17")
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/44a8d9bc-01ea-442c-a6a5-d4200373c99d"
       (reference "X601") (unit 1) (value "KF2EDGR-3.81-3P") (footprint "CONN-TH_3P-P3.81_KF2EDGR-3.81-3P")
-    )
-    (path "/079bc49e-d545-405c-843f-4b3e915cef08/15770564-8e4e-4788-8f2d-3a0fefffa1ab"
-      (reference "X602") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
     )
     (path "/079bc49e-d545-405c-843f-4b3e915cef08/8ef762e1-2a87-413b-874d-9a719ca5f3af"
       (reference "X603") (unit 1) (value "PJ-327C-4A") (footprint "AUDIO-SMD_PJ-327C-4A")
