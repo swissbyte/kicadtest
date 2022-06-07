@@ -83,11 +83,6 @@
   (gr_line locked (start 154 21) (end 154 181) (layer "Edge.Cuts") (width 0.1) (tstamp 4d20b472-4798-4b9d-93d4-c70f045828dc))
   (gr_line locked (start 154 181) (end 54 181) (layer "Edge.Cuts") (width 0.1) (tstamp cf1cd9c1-3bed-4f1d-baf5-1395625f6d70))
 
-  (via locked (at 149 176) (size 4) (drill 3.2) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 5ec88476-e4d9-4312-863a-435dcc9cfd35))
-  (via locked (at 149 26) (size 4) (drill 3.2) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 68b1c9ea-97f9-476e-84c7-148a4e323c42))
-  (via locked (at 59 26) (size 4) (drill 3.2) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 6ebec917-f802-41f5-b597-d939ad23f5b1))
-  (via locked (at 59 176) (size 4) (drill 3.2) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 8e0e9971-effa-4afd-9f09-209311e5b8b6))
-
   (group "" locked (id c1c31ce3-9976-48af-a64c-b4db73d09c2d)
     (members
       060f4a00-088e-47e9-a9e6-ddf74ef3ddfb
